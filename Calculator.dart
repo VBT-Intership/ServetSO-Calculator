@@ -16,8 +16,8 @@ class Calculator{
     print(" 1-Summation\n 2- Remove\n 3-Multiplication\n 4- Division\n 5-Remaining\n");
 
     print("Please Enter a Number:");
-    int islem = int.parse(stdin.readLineSync());
-    switch(islem) {
+    int operation = int.parse(stdin.readLineSync());
+    switch(operation) {
       case 1:
         int result = firstNumber + secondNumber;
         print("Result : $result");
